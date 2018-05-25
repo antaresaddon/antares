@@ -3,7 +3,7 @@
     <extension point="xbmc.addon.repository" name="Mi repoantares">
         <info>https://raw.githubusercontent.com/antaresaddon/blamcoynegro/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/antaresaddon/blamcoynegro/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/antaresaddon/master/Repositorio/</datadir>
+        <datadir zip="true">https://github.com/antaresaddon/antares/tree/master/blamcoynegro-master/zips</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Repositorio para Mi</summary>
