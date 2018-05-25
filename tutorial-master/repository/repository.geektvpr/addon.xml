@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.geektvpr" name="GeekTvPR Repo" version="2.0.5" provider-name="GeekTvPR Group">
+	<requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.repository" name="GeekTvPR Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/MrBlamo420/Project/master/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            </dir>
+        <dir>
+			<info compressed="false">https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/intrcomp/tutorial/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/intrcomp/tutorial/raw/master/zips</datadir>
+			</dir>
+		<dir>
+			<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        	<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+			</dir>	
+		<dir>
+        	<info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Repositorio GeekTvPR Media</summary>
+		<description>GeekTvPR Media es un repositorio con el fin de facilitar la instalacion de addons que no tienen repositorios.
+		De esta manera los addons son automaticamente actualizados. Cada addon tiene su dueño. Todos los creditos de los addons son para sus creadores. Si Usted tiene un addon y no tiene un Host donde alojarlo con mucho gusto lo puede alojar en este repo si es de su interés. Me puede enviar email a intrcomp@gmail.com y con mucho gusto le ayudare. La meta de GeekTvPR Media es unir a la commnidad especialmente Latina en esta plataforma Open Source. Gracias a todos por su Apoyo</description>
+		<platform>all</platform>
+	</extension>
+</addon>

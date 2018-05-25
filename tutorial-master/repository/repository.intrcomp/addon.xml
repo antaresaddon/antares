@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.intrcomp" name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]" version="3.3" provider-name="[COLOR white][B]INTRCOMP MEDIA[/B][/COLOR]">
+	<extension point="xbmc.addon.repository" name="Intrcomp Media">
+		
+		<info compressed="false">http://intrcomp.net/Plugins/addons.xml</info>
+		<checksum>http://intrcomp.net/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://intrcomp.net/Plugins/</datadir>
+
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvaddonsco/tva-resolvers-repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/tree/master/zips</datadir>
+	</dir>
+
+	<dir>
+        <info compressed="false">https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/totalrevolution/totalrevolution/master/zips/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/totalrevolution/totalrevolution/tree/master/zips</datadir>
+    </dir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		
+		<summary>[COLOR white]Repositorio Intrcomp Media[/COLOR]</summary>
+		<description>[COLOR yellow]Intrcomp Media es un repositorio con el fin de facilitar la instalacion de addons que no tienen repositorios.
+		De esta manera los addons son automaticamente actualizados. Cada addon tiene su dueño. Todos los creditos de los addons son para sus
+		creadores. Si Usted tiene un addon y no tiene un Host donde alojarlo con mucho gusto lo puede alojar en este repo si es de su interés. Me puede enviar
+		email a intrcomp@gmail.com y con mucho gusto le ayudare. La meta de Intrcomp Media es unir a la commnidad especialmente Latina en esta plataforma Open Source.
+		Gracias a todos por su Apoyo[/COLOR]</description>
+		<platform>all</platform>
+	
+	</extension>
+</addon>
+

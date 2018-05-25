@@ -1,0 +1,13 @@
+[B]Version 1.0[/B]
+- Initial version
+
+[B]Version 1.2[/B]
+- Dependencies added
+
+[B]Version 2.0[/B]
+- New Icon, New Repo Address
+
+[B]Version 2.1[/B]
+- https:// SSl fix
+
+

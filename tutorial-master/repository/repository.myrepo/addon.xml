@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myrepo" name="My REPO" version="1.0" provider-name="ME">
+	<extension point="xbmc.addon.repository" name="My REPO">
+		<info compressed="false">addons.xml</info>
+		<checksum>addons.xml.md5</checksum>
+		<datadir zip="true">zip</datadir>
+		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Summary</summary>
+		<description>Description</description>
+		<platform>all</platform>
+	</extension>
+</addon>

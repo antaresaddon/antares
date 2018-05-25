@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.dannymoviespr" name="DannymoviesPR Repo" version="1.1" provider-name="DannymoviesPR Group">
+	<requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+	<extension point="xbmc.addon.repository" name="DannymoviesPR Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/basketboy1723/tutorial/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/basketboy1723/tutorial/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://github.com/basketboy1723/tutorial/raw/master/zips</datadir>
+			</dir>
+		
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Summary</summary>
+		<description>Description</description>
+		<platform>all</platform>
+	</extension>
+</addon>
